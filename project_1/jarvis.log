@@ -1,0 +1,36 @@
+2026-03-02 21:00:43,031 - DEBUG - CoInitializeEx(None, 2)
+2026-03-02 21:00:43,108 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\User\\OneDrive\\Desktop\\project_1\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-03-02 21:00:43,109 - INFO - Using writeable comtypes cache directory: 'C:\Users\User\OneDrive\Desktop\project_1\.venv\Lib\site-packages\comtypes\gen'
+2026-03-02 21:00:43,227 - DEBUG - SAPI.SPVoice -> {96749377-3391-11D2-9EE3-00C04F797396}
+2026-03-02 21:00:43,228 - DEBUG - CoCreateInstance({96749377-3391-11D2-9EE3-00C04F797396}, clsctx=None, interface=None)
+2026-03-02 21:00:43,243 - DEBUG - GetBestInterface(<POINTER(IUnknown) ptr=0x1aa375b1370 at 1aa39f7dfd0>)
+2026-03-02 21:00:43,243 - DEBUG - Does implement IProvideClassInfo
+2026-03-02 21:00:43,248 - DEBUG - Default interface is {269316D8-57BD-11D2-9EEE-00C04F797396}
+2026-03-02 21:00:43,249 - DEBUG - Release <POINTER(IUnknown) ptr=0x1aa375b13b0 at 1aa39e139d0>
+2026-03-02 21:00:43,249 - DEBUG - GetModule(TLIBATTR(GUID={C866CA3A-32F7-11D2-9602-00C04F8EE628}, Version=5.4, LCID=0, FLags=0x8))
+2026-03-02 21:00:43,249 - DEBUG - Implements default interface from typeinfo <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4.ISpeechVoice'>
+2026-03-02 21:00:43,249 - DEBUG - Final result is <POINTER(ISpeechVoice) ptr=0x1aa375b13b0 at 1aa3abfe8f0>
+2026-03-02 21:00:43,249 - DEBUG - Release <POINTER(ITypeLib) ptr=0x1aa39a473d0 at 1aa3abfe760>
+2026-03-02 21:00:43,249 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1aa3a40d2f8 at 1aa3abfde00>
+2026-03-02 21:00:43,249 - DEBUG - Release <POINTER(ITypeInfo) ptr=0x1aa3a40d350 at 1aa3abfe2b0>
+2026-03-02 21:00:43,249 - DEBUG - Release <POINTER(IProvideClassInfo) ptr=0x1aa375b13d0 at 1aa3abfdc70>
+2026-03-02 21:00:43,249 - DEBUG - Release <POINTER(IUnknown) ptr=0x1aa375b1370 at 1aa39f7dfd0>
+2026-03-02 21:00:43,250 - DEBUG - <POINTER(ISpeechVoice) ptr=0x1aa375b13b0 at 1aa3abfe8f0> using sinkinterface from clsid <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2026-03-02 21:00:43,250 - DEBUG - Release <POINTER(IProvideClassInfo2) ptr=0x1aa375b13d0 at 1aa3abfdc70>
+2026-03-02 21:00:43,252 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>: _ISpeechVoiceEvents.VoiceChange not implemented
+2026-03-02 21:00:43,252 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>: _ISpeechVoiceEvents.Bookmark not implemented
+2026-03-02 21:00:43,252 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>: _ISpeechVoiceEvents.Sentence not implemented
+2026-03-02 21:00:43,252 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>: _ISpeechVoiceEvents.Phoneme not implemented
+2026-03-02 21:00:43,252 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>: _ISpeechVoiceEvents.Viseme not implemented
+2026-03-02 21:00:43,252 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>: _ISpeechVoiceEvents.AudioLevel not implemented
+2026-03-02 21:00:43,252 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>: _ISpeechVoiceEvents.EnginePrivate not implemented
+2026-03-02 21:00:43,252 - DEBUG - Start advise <class 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4._ISpeechVoiceEvents'>
+2026-03-02 21:00:43,252 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>.QueryInterface({A372ACD1-3BEF-4BBD-8FFB-CB3E2B416AF8}) -> S_OK
+2026-03-02 21:00:43,252 - DEBUG - 1 active COM objects: Added   <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>
+2026-03-02 21:00:43,252 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>.AddRef() -> 1
+2026-03-02 21:00:43,258 - DEBUG - Release <POINTER(IConnectionPointContainer) ptr=0x1aa375b13d8 at 1aa3abfeda0>
+2026-03-02 21:00:43,415 - DEBUG - Calling CoUninitialize()
+2026-03-02 21:00:43,416 - DEBUG - CoUninitialize() done.
+2026-03-02 21:00:43,437 - DEBUG - <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>.Release() -> 0
+2026-03-02 21:00:43,438 - DEBUG - 0 active COM objects: Removed <comtypes.client._events.CreateEventReceiver.<locals>.Sink object at 0x000001AA3A080D70>
+2026-03-02 21:00:43,438 - DEBUG - Remaining: []
